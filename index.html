@@ -1,25 +1,287 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title>Xavi Subirà, occupational trainer & fullstack developer</title>
-    <link rel="stylesheet" href="/css/bootstrap.min.css">
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="/css/style.css">
+  <meta charset="UTF-8" />
+  <title>Xavi Subirà, Engineer & Trainer</title>
+  <style>
+    @page{
+      margin: 16mm;
+      size: auto;
+    }
+  </style>
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+  <style>
+    @media all{
+      body {
+        /*height:297mm; */
+        display: flex; 
+        justify-content: flex-start;
+      }
+
+      body > .container{
+        max-width:210mm;
+        padding:1cm 1.5cm;
+      }
+
+      .jumbotron{
+        padding: 2rem;
+      }
+      .jumbotron img{
+        filter: hue-rotate(32deg) brightness(1.7);
+      }
+
+      .jumbotron p:last-child{
+        margin-bottom: 0;
+      }
+
+      .jumbotron .row > div:last-child
+
+      article p.alert{
+        margin-bottom: 0;
+      }
+
+      #skills .badge{
+        padding:0.6ex;
+      }
+
+      #contact .list-group-item{
+        padding-bottom:0;
+      }
+
+      #contact card{
+        max-width: 5rem;
+      }
+
+      #contact img{
+        max-width: 4rem;
+      }
+
+      #contact p{
+        line-height: 0.6;
+        font-size: small;
+      }
+
+      main article.card-body .alert{
+        margin-bottom: 0.8rem;
+      }
+
+      main #experience-2 h3{
+        max-height: 3rem;
+      }
+
+      main #experience-2 h3:first-child{
+        max-height: 5rem;
+      }
+
+      main #experience-2 .alert{
+        margin-bottom: 0.4rem;
+      }
+    }
+
+    @media print{
+      .break-after{
+        break-after: page;
+      }
+      
+      .page-break{
+        break-after: page;
+        break-before: page;
+        break-inside: avoid;
+        padding-top: 1cm;
+      }
+    }
+  </style>
+
 </head>
 <body>
-    <header>
-        <div class="flex col">
-            <section>
-                <picture>
-                    <source src="/assets/header-portrait.jpg">
-                </picture>
-                <h2>temple.github.com</h2>
-                <h3>a bio of Xavi Subirà</h3>
-            </section>
-        </div>
+  <div class="container mx-auto" >
+    <header class="jumbotron">
+        <section class="row">
+          <div class="col-9">
+            <h1 class="h3">Xavi Subirà</h1>
+            <h2 class="h4">Barcelona, 40 años</h2>
+            <p class=" h6 lead">Desarrollador Full-Stack en PHP <br/>Ingeniero en Informática de Gestión <br/>Docente para formación profesional y ocupacional</p> 
+            <p class=" h6 text-muted">Catalán y castellano nativos, inglés técnico</p>
+          </div>
+          <div class="col-3 d-flex align-items-center">
+            <img alt="" class="rounded-circle w-100"  src="biopic.jpg">
+          </div>
+        </section>
     </header>
-    <main></main>
-    <footer></footer>
+    <main>
+      <div class="row break-after">
+        <aside  class="col-3 order-1">        
+          <section id="skills">
+            <h2 class="h6">Stack tecnológico</h2>
+            <ul class="list-group">
+              <li class="list-group-item"><span class="badge badge-secondary">PHP 7/8</span></li>
+              <li class="list-group-item"><span class="badge badge-secondary">Symfony 3/5</span></li>
+              <li class="list-group-item"><span class="badge badge-secondary">Laravel 5/8</span></li>
+              <li class="list-group-item"><span class="badge badge-warning">JS/ES6</span></li>
+              <li class="list-group-item"><span class="badge badge-warning">Vue 2/3</span></li>
+              <li class="list-group-item"><span class="badge badge-warning">Webpack</span></li>
+              <li class="list-group-item"><span class="badge badge-primary">CentOS / Debian</span></li>
+              <li class="list-group-item"><span class="badge badge-primary">Docker</span></li>
+              <li class="list-group-item"><span class="badge badge-primary">AWS ECS</span></li>          
+              <li class="list-group-item"><span class="badge badge-info">Github actions</span></li>          
+              <li class="list-group-item"><span class="badge badge-info">PHPUnit / Behat</span></li>          
+              <li class="list-group-item"><span class="badge badge-info">MySQL / MariaDB</span></li>          
+              <li class="list-group-item"><span class="badge badge-info">Postgres</span></li>
+              <li class="list-group-item"><span class="badge badge-info">Redis</span></li>
+            </ul>
+          </section>
+
+          <section id="contact" class="mt-4">
+            <h2 class="h6">Contacto</h2>
+            <ul class="list-group mx-auto">
+              <li class="list-group-item border-0" >
+                <a class="pt-1 card bg-light" href="mailto:xavier-subira@yandex.com">
+                  <img class="mx-auto card-img-top " src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/TK_email_icon.svg/120px-TK_email_icon.svg.png" alt="">
+                  <div class="card-body">
+                    <p class="h6 card-text">Mail</p>
+                  </div>
+                </a>
+              </li>
+              <li class="list-group-item border-0">
+                <a class="pt-1 card bg-light" href="https://github.com/temple">
+                  <img class="mx-auto card-img-top" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/240px-Octicons-mark-github.svg.png" alt="">
+                  <div class="card-body">
+                    <p class="h6 card-text">Github</p>
+                  </div>
+                </a>
+              </li>
+              <li class="list-group-item border-0">
+                <a class="pt-1 card bg-light" href="https://linkedin.com/in/xsubira">
+                  <img class="mx-auto card-img-top" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/LinkedIn_font_awesome.svg/240px-LinkedIn_font_awesome.svg.png" alt="">
+                  <div class="card-body">
+                    <p class="h6 card-text">Linkedin</p>
+                  </div>
+                </a>
+              </li>
+
+
+            </ul>
+          </section>
+
+        </aside>
+        <section id="experience" class=" col-9 order-0">      
+          <h2 class="h3">Experiencia</h2>      
+          <div class="border-top pt-4"></div>        
+          <ul class="nav flex-column">
+            <li class="nav-item card border-light mb-4">
+              <h3 class="h4 card-header">Senior Backend Developer en PHP 8,<br/> Arq. Hexagonal y DDD</h3>
+              <article class="card-body">
+                <h4 class="h5 card-title">Conkau</h4>
+                <h5 class="h6 card-subtitle mb-2 text-muted">Setiembre 2021 - Actualidad</h5>
+                <p class="card-text"><em>Conkau</em> es una <em>startup</em> del grupo <em>Antai</em>, que se encuentra actualmente desarrollando una solución para la gestión de procesos de compra en el sector de la construcción. Esta solución se constituye de una aplicación <i>frontend</i> que consume una <em>API</em> servida por una aplicación <em>backend</em>. Mi labor principal se encuentra en el desarrollo de la aplicación <em>backend</em>, participando activamente de la definición de la solución junto con el equipo de producto y con el <em>tech lead</em> de la empresa. En el desempeño de mis funciones aporto mi <em>seniority</em> especialmente en la (re)definición del <strong>dominio</strong> y de la arquitectura de la aplicación.
+                <p class="alert alert-success">
+                  El software <em>backend</em> de Conkau, está estructurado según <strong>Domain Driven Design, CQRS e Event-Sourcing</strong>, desarrollado en PHP 8.1 y Symfony 5, bajo un entorno <em>dockerizado</em>. 
+                  A nivel de infraestructura la aplicación <em>backend</em> se distribuye en un cluster de pods orquestrado por <em>kubernetes</em> sobre el que corren servicios implementados con <em>Nginx</em>, <em>Symfony</em>, <em>MySQL</em> y <em>RabbitMQ</em>, hospedado en <em>Google Cloud</em>.
+                </p>
+              </article>
+            </li>
+
+            <li class="nav-item card border-light mb-4">
+              <h3 class="h4 card-header">Full-Stack en PHP/AWS, Soporte Operaciones</h3>
+              <article class="card-body">
+                <h4 class="h5 card-title">Paymefy</h4>
+                <h5 class="h6 card-subtitle mb-2 text-muted">Agosto 2020 - Agosto 2021</h5>
+                <p class="card-text"><em>Paymefy</em> es una <em>startup</em> del grupo <em>Nuclio</em>, dedicada a la mejora del recobro, cuya solución se encontaba en su segundo año de rodaje. La solución ofrecida consistía en una API pública  construida en Lumen y una aplicación Backoffice creada con Laravel, a las que se añadió un sistema <em>ETL</em> para integraciones con plataformas como <em>Sage</em> o <em>Salesforce</em>. Siendo que en el año en el que presté mis servicios en Paymefy realicé funciones tanto técnicas como de gestión, colaborando con los departamentos de soporte, producto y de ventas, actuando como responsable de proyectos, técnico de devops, senior backend developer, responsable de testing y consultor de soporte para clientes
+                <p class="alert alert-primary">
+                  El software de Paymefy, escrito en <em>PHP 7.4</em>, estaba construido sobre <em>Laravel 5.6</em> y <em>Lumen 5.8</em>, y en cuanto a la aplicación <em>ETL</em>, esta se creó agnóstica, bajo los paradigmas de <em>DDD</em> y <em>arquitectura hexagonal</em>, usando Symfony 5 para implementación de los puntos de entrada.
+                  La infrastructura sobre la que se desplegaba la solución <em>ETL</em> era <em>AWS ECS</em> mientras que el resto lo hacían sobre <em>AWS Elastic Beanstalk</em>.
+                </p>
+              </article>
+            </li>
+          </ul>
+        </section>
+      </div>
+      <div class="row page-break">
+        <section id="experience-2" class=" col-12 order-2">                
+          <ul class="nav flex-column">
+            <li class="nav-item card border-light mb-4">
+              <h3 class="h4 card-header">Desarrollador Full-Stack en PHP</h3>
+              <article class="card-body">
+                <h4 class="h5 card-title">Proweb21</h4>
+                <h5 class="h6 card-subtitle mb-2 text-muted">Marzo 2020 - Julio 2020</h5>
+                <p class="card-text"><em>Proweb21</em> es un proyecto de start-up creada con un ex-alumno, en el que desempeñé la dirección y la realización de proyectos de desarrollo. Durante la corta vida de <em>Proweb21</em> me centré en la elaboración de un prototipo de PWA para una entidad del sector público, basado en las tecnologías <em>Laravel</em>, <em>Vue</em> (incluyendo <em>Vuex</em>, <em>VueRouter</em> y <em>Webpack</em>), <em>Elasticsearch</em> y <em>Redis</em>, en el que implementé Arquitectura Hexagonal, MSOA y Domain Driven Design, aplicando principios del desarrollo backend como SOLID, SoC, KISS o DRY</p>
+                <p class="alert alert-warning">A nivel de arquitectura este proyecto conmuta <em>Nginx</em>, <em>PHP-FPM</em>, <em>Elasticsearch</em>, <em>Redis</em> y un servicio de gestión de sesiones de usuarios via JWT, pivotando toda la infraestructura sobre <em>Docker</em>.</p>
+              </article>
+            </li>
+            <li class="nav-item card border-light mb-4">
+              <h3 class="h4 card-header">Estudiante de Docencia, Desarrollador Junior en Python, Formador en Frontend y Backend</h3>
+              <article class="card-body">
+                <h4 class="h5 card-title">Grupo CIEF, Fuelia y centros de formación</h4>
+                <h5 class="h6 card-subtitle mb-2 text-muted">Enero 2018 - Febrero 2020</h5>
+                <p class="card-text">En el centro formativo de <em>Grupo CIEF</em> de Barcelona, me especialicé como formador ocupacional tras cursar Docencia para la Formación de Adultos entre enero y julio del 2018. En agosto me enrolé en <em>Fuelia</em> para contribuir a <em>Tendgo</em>, un ERP basado en <em>ERPNext</em>, creado con el Framework de <em>Python 3</em>, <em>Frappé</em>.<br> Mi principal contribución al proyecto fue el diseño del Modelo de Dominio y la implementación de un módulo reusable para la gestión de pagos con tarjeta contra TPV de Caixabank.<br />
+                                      Finalizada mi estancia en <em>Fuelia</em> (enero 2019), he estado impartiendo cursos de iniciación al desarrollo frontend y backend, de forma continuada, en los centros formativos de Criteria, E-Gri y Grupo Aspasia (Tadel Formación).
+                <p class="alert alert-info">La formación en desarrollo ha implicado el uso de herramientas y técnicas para el diseño y maquetación web (incluyendo <em>frameworks de CSS3</em>), y por el lado backend, <em>Apache</em>, <em>CentOS</em>, <em>Symfony</em>, <em>Vagrant</em>, <em>MariaDB</em>, <em>Git</em> han sido las principales tecnologías.</p>
+              </article>
+            </li>
+            <li class="nav-item card border-light mb-4">
+              <h3 class="h4 card-header">Formador en desarrollo Frontend y Backend, Desarrollador Backend Senior PHP, SysAdmin y Jefe de Proyectos</h3>
+              <article class="card-body">
+                <h4 class="h5 card-title">Grupo Stucom e ITBID</h4>
+                <h5 class="h6 card-subtitle mb-2 text-muted">Enero 2016 - Diciembre 2018</h5>
+                <p class="card-text">En enero del 2016 me inicié como docente un centro formativo de <em>Grupo Stucom</em> de Barcelona, cubriendo simultaniamente un curso de desarrollo frontend y otro de desarrollo backend.<br>
+                                      En mayo de ese año, <em>ITBID</em> me contrató para cubrir una vacante de desarrollador Backend. <em>ITBID</em> ofrece un SaaS para la gestión de adquisiciones, consistente en un ERP con una serie de módulos <em>core</em> y otros módulos realizados a medida para los clientes, coexistiendo distintos <em>flavours</em> del ERP (<em>forks</em> de un respositorio troncal en <em>git</em>).<br>
+                                      En mi estancia fui acumulando roles dentro del departamento de IT y a su vez, introduciendo mejoras en el flujo de trabajo y en el stack tecnológico de la compañía. En mis últimos meses realizaba tareas propias de Administrador de Sistemas, Operador de Devops, Tech Lead, Jefe de Proyecto y Desarrollador Backend Senior. <br>                                     
+                <p class="alert alert-success">En <em>ITBID</em> preparé un proyecto (inacabado) que usaba <em>RabbitMQ</em> como <em>pipeline</em> entre <em>PostgreSQL</em> y <em>AWS</em>, llevé a cabo refactorings sobre <em>Symfony</em>, <em>Doctrine</em> y <em>SQL</em>. En calidad de Tech Lead/Desarrollador Senior, asumí el trainning de los desarrolladores junior en patrones de arquitectura (MSOA, MVC, Ports/Adatpters) y de principios del desarrollo (<em>SOLID</em>, <em>SoC</em>, <em>KISS</em>, <em>DRY</em>...).</p>
+              </article>
+            </li>         
+          </ul>
+        </section>
+      </div>
+      <div class="row page-break">
+        <section id="experience-3" class="col-12 order-3">
+          <ul class="nav flex-column">
+              <li class="nav-item card border-light mb-4">
+              <h3 class="h4 card-header">Desarrollador Backend Junior PHP</h3>
+              <article class="card-body">
+                <h4 class="h5 card-title">ClickArt, Freelance y BAB</h4>
+                <h5 class="h6 card-subtitle mb-2 text-muted">Noviembre 2010 - Octubre 2012</h5>
+                <p class="card-text">En ClickArt me inicié como Desarrollador Junior en PHP, elaborando un módulo de gestión contable para <em>ClickEdu</em>, un ERP para la gestión escolar. También realicé tareas de refactoring, corrección de bugs y gestión de incidencias.<br>En mayo del 2011, arrancó "La Botigueta del Raval", un negocio familiar propio, con el que compaginé el desarrollo freelance de un proyecto de punto de venta con impresión de tickets basado en <em>CodeIgniter</em>.<br>En septiembre del mismo año me uní a <em>BAB</em>, donde desarrollé proyectos a medida para firmas como: <em>Prisma Publicaciones</em>, <em>Bodegas Torres</em>, <em>Oficina de Turisme de Girona</em>, <em>Endesa</em> o <em>Sapiens Publicacions</em>.
+                <p class="alert alert-primary">En los desarrollos realizados para <em>Clickart</em> utilicé <em>vendors</em> de <em>Zend Framework</em>. Por otro lado, los desarrollos realizados para <em>BAB</em> requirieron de frameworks como <em>Yii</em> y tecnologías como <em>MySQL</em>.</p>
+              </article>
+            </li>   
+
+            <li class="nav-item card alert-light border-light mb-4">
+              <h3 class="h4 card-header">Estudiante de Docencia para FP y Desarrollo Web</h3>
+              <article class="card-body">
+                <h4 class="h5 card-title">UPC y Barcelona Activa</h4>
+                <h5 class="h6 card-subtitle mb-2 text-muted ">Octubre 2009 - Noviembre 2011</h5>
+                <p class="card-text">En el curso académico 2009-2010, cursé y obtuve el Máster de Docencia para la Formación Profesional, en la <em>Universitat Politècnica de Catalunya</em>, finalizándolo en julio del 2010. Seguidamente, de septiembre a noviembre realicé un curso de <em>Barcelona Activa</em> para formarme en el desarrollo web con PHP.
+              </article>
+            </li>
+            <li class="nav-item card alert-light border-light mb-4">
+              <h3 class="h4 card-header">Desarrollador Senior Delphi</h3>
+              <article class="card-body">
+                <h4 class="h5 card-title">Edenred e International Softmachine</h4>
+                <h5 class="h6 card-subtitle mb-2 text-muted">Setiembre 2006 - Agosto 2009</h5>
+                <p class="card-text"><em>Edenred</em>, conocida entonces como <em>Accor Services</em>, es la ramificación de la multinacional hotelera <em>Accor</em> que ofrece servicios de bonificación a empleados (como <em>Ticket Restaurant</em>), en la que desarrollé el backoffice de la integración en el ERP corporativo del producto <em>Ticket Restaurant Card</em>.<br>Por otro lado, <em>International Softmachine</em> se dedica al control de accesos y a la gestión de RRHH, que ofrece soluciones <em>on premise</em>. En esta última me dediqué principalmente en la finalización de un proyecto de integración de controles de acceso y en el desarrollo de un módulo de informes personalizables.
+                <p class="alert alert-secondary">Los desarrollos realizados en este estadio profesional, implicaron el trabajo con Frameworks y librerías para Delphi y la implementación de lógica de negocio sobre Oracle y SQL-Server</p>
+              </article>
+            </li>
+
+            <li class="nav-item card alert-light border-light">
+              <h3 class="h4 card-header">Desarrollador Junior Delphi, Estudiante de Ingeniería Informática</h3>
+              <article class="card-body">
+                <h4 class="h5 card-title">Eurosoft, Emergia, Actaris y UPC</h4>
+                <h5 class="h6 card-subtitle mb-2 text-muted">Junio 2003 - Agosto 2006</h5>
+                <p class="card-text">En <em>Eurosoft</em>, donde ya trabajaba como técnico informático, pasé a formar parte del equipo de desarrollo, creando módulos y solucionando bugs para un frontoffice del sector de la restauración, y  y desarrollé mi proyecto final de carrera, consistente en una integración via <em>daemon</em> de este backoffice con un servicio <em>on premise</em> de un partner.<br>
+                  Recalé en <em>Emergia</em> en agosto del 2005, donde desarrollé exclusivamente formularios para campañas de márqueting telefónico.<br>
+                  Y en enero del 2006 realicé una estancia en prácticas de 6 meses en <em>Actaris</em> (división de sistemas de metraje de la multinacional de la energia <em>Schlumberger</em>), incorporandome posteriormente a la plantilla durante 2 meses. En dicha estancia mi labor fue el desarrollo de interficies de usuario para el control de sistemas hardware.
+                <p class="alert alert-secondary">Durante mis estancias en <em>Eurosoft</em> y en <em>Actaris</em> estuve cursando la carrera de Ingeniería Técnica en Informática de Gestión, titulandome en julio del 2006</p>
+              </article>
+            </li>            
+          </ul>
+        </section>
+      </div>
+    </main>    
+  </div>  
 </body>
+
+
 </html>
