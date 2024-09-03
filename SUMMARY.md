@@ -1,11 +1,11 @@
 # Table of contents
 
-* [Welcome](README.md)
+* [Xavi Subirà](README.md)
 
-## Getting Started
+## discover
 
-* [Quickstart](getting-started/quickstart.md)
-* [Publish your docs](getting-started/publish-your-docs.md)
+* [Quickstart](discover/quickstart.md)
+* [Publish your docs](discover/publish-your-docs.md)
 
 ## Basics
 
