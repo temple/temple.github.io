@@ -23,6 +23,8 @@ layout:
 
 <img src=".gitbook/assets/file.excalidraw (1).svg" alt="" class="gitbook-drawing">
 
+<figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+
 ### What's here
 
 Are you looking for..
@@ -40,5 +42,5 @@ You are in the right place, my online CV
 
 ### Discover more
 
-<table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-cover data-type="files"></th><th data-hidden></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Background</strong></td><td>Where you can explore my detailed job experience</td><td><a href=".gitbook/assets/1.png">1.png</a></td><td></td><td><a href="discover/quickstart.md">quickstart.md</a></td></tr><tr><td><strong>Education</strong></td><td>That will reveal what's my learning path (past and upcoming)</td><td><a href=".gitbook/assets/2.png">2.png</a></td><td></td><td><a href="broken-reference">Broken link</a></td></tr><tr><td><strong>Interests</strong></td><td>Do not hesitate finding subjects we can talk about (or even share!!)</td><td><a href=".gitbook/assets/4.png">4.png</a></td><td></td><td><a href="discover/publish-your-docs.md">publish-your-docs.md</a></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-cover data-type="files"></th><th data-hidden></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Background</strong></td><td>Where you can explore my detailed job experience</td><td><a href=".gitbook/assets/ben-griffiths-Bj6ENZDMSDY-unsplash.jpg">ben-griffiths-Bj6ENZDMSDY-unsplash.jpg</a></td><td></td><td><a href="discover/quickstart.md">quickstart.md</a></td></tr><tr><td><strong>Education</strong></td><td>That will reveal what's my learning path (past and upcoming)</td><td><a href=".gitbook/assets/aaron-burden-LNwn_A9RGHo-unsplash.jpg">aaron-burden-LNwn_A9RGHo-unsplash.jpg</a></td><td></td><td><a href="broken-reference">Broken link</a></td></tr><tr><td><strong>Interests</strong></td><td>Do not hesitate finding subjects we can talk about (or even share!!)</td><td><a href=".gitbook/assets/ilnur-kalimullin-kP1AxmCyEXM-unsplash.jpg">ilnur-kalimullin-kP1AxmCyEXM-unsplash.jpg</a></td><td></td><td><a href="discover/publish-your-docs.md">publish-your-docs.md</a></td></tr></tbody></table>
 
