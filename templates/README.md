@@ -9,6 +9,16 @@ description: Experience brief reporting duration and position
 Write down a description about what the company is, in which market it operates and foundation year.\
 It should be a short explanation summarizing company's history and solutions
 
+### Details
+
+| Foundation | 2000                                     |
+| ---------- | ---------------------------------------- |
+| Employees  | 50                                       |
+| Location   | Barcelona (Spain)                        |
+| Investors  | Venture Builder / Invest Group / Mentors |
+| Market     | Spain                                    |
+| Website    |                                          |
+
 ## The Position
 
 ### The Need
