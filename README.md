@@ -18,25 +18,24 @@ layout:
     visible: true
 ---
 
-# Xavi Subirà
+# Welcome
 
-<div align="right">
+<img src=".gitbook/assets/file.excalidraw (1).svg" alt="" class="gitbook-drawing">
 
-<figure><img src=".gitbook/assets/biopic2024.png" alt="How I look nowadays" width="188"><figcaption><p>That's me in 2024</p></figcaption></figure>
+### What's here
 
-</div>
+Are you looking for..
 
-### Welcome
-
-Thank you for reaching this website.\
-If you are looking for ...&#x20;
+* A _**Senior Backend Engineer**_,&#x20;
+* or maybe a _**Mid Fullstack Developer**_,&#x20;
+* even an _**Occupational Trainer**,_&#x20;
+* _otherwise_ a _**Non-Profit Organization Coordinator**_&#x20;
 
 {% hint style="success" %}
-A _**Senior Backend Engineer**_, or maybe a _**Mid Fullstack Developer**_, \
-even an _**Occupational Trainer**, otherwise_ a _**Non-Profit Organization Coordinator**_ ?&#x20;
-{% endhint %}
+**¡¡Great news!!**&#x20;
 
-.. then, great news, cause **you are in the right place.**
+You are in the right place, my online CV
+{% endhint %}
 
 ### Discover more
 

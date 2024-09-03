@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Xavi Subirà](README.md)
+* [Welcome](README.md)
 
 ## discover
 
