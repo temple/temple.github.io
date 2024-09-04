@@ -25,8 +25,9 @@ layout:
 
 ### What's here
 
-Hi there, I'm Xavi, an spanish software engineer born in the eighties.\
-And you are in my _professional bio_ website.
+Hi there! You are in my _professional bio_ website.\
+And I am Xavi, software engineer born in Spain at the beginning of the eighties, who has been working for years as a _**backend developer**_ and an _**occupational trainer**_.\
+
 
 Let me guess that If you have arrived here, that's because you are looking for:
 
