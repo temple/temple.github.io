@@ -4,8 +4,10 @@
 
 ## discover
 
+* [Page](discover/page.md)
 * [Quickstart](discover/quickstart.md)
 * [Publish your docs](discover/publish-your-docs.md)
+* [Experience](discover/experience.md)
 
 ## Basics
 
