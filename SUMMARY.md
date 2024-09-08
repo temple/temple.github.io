@@ -7,7 +7,7 @@
 * [Page](discover/page.md)
 * [Quickstart](discover/quickstart.md)
 * [Publish your docs](discover/publish-your-docs.md)
-* [Background](discover/background.md)
+* [Background](discover/experience.md)
 
 ## Basics
 
